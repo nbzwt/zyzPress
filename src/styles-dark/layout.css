@@ -40,39 +40,44 @@
   }
 
   #left {
-    max-width: 240px;
-    flex: 2;
-	border-right: 1px solid #ccc;
+    border-right: 1px solid #666;
     padding: 0em 1em 1em .2em;
     margin: 1em 0 0 0;
+    width: 22%;
+    display: inline-block;
   }
 
   #right {
-    width: 65%;
-    flex: 4;
+    width: 74%;
     padding-left: 1em;
+    display: inline-block;
+    vertical-align: top;
   }
 }
 
 #bar {
-    border-top: 1px solid #8cacbb;
-    border-bottom: 1px solid #8cacbb;
-    background: #dee7ec;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background: rgba(255, 255, 255, 0.12);
     padding: .1em .15em;
     clear: both;
-	width: 100%
+    width: 100%
+}
+
+#barLeft {
+    float: left;
 }
 
 #barRight {
-	float: right;
+    float: right;
 }
 
 #clearer {
-	clear: both;
-	font-size: 0;
-	line-height: 0;
-	height: 0;
-	overflow: hidden;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 #footer {

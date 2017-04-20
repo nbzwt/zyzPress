@@ -85,6 +85,10 @@ let getHandler = (req, res) => {
       pattern.tags = req.query.tag;
     }
 
+    if (req.query.slug) {
+      pattern.slug = req.query.slug;
+    }
+
     collection.find(pattern).sort({date:-1}).toArray((err, docs) => {
       res.send({
         status: 'ok',

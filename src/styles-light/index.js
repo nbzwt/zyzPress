@@ -1,0 +1,9 @@
+import "./elements.css";
+import "./global.css";
+import "./layout.css";
+import "./lefts.css";
+import "./posts.css";
+import "./rights.css";
+import "./scroll.css";
+import "./tags.css";
+import 'highlight.js/styles/default.css';

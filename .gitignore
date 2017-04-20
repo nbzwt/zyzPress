@@ -4,3 +4,5 @@ database.sql
 config.js
 webpack.config.js
 static/bundle.js
+static/img/
+static/res/

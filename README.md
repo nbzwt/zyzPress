@@ -11,7 +11,7 @@ A simple blog framework build with nodejs, react and mongodb. Originally written
  - [ ] Discussion
  - [x] Widgets
  - [ ] Search
- - [ ] Date
+ - [x] Date
  - [ ] Management Panel
 
 ## Install

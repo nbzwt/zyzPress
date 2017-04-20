@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Title from './title';
 import Search from './search';
-import Category from './category'
+import Back from './back';
+import Category from './category';
 import Tags from './tags';
 import Widgets from './widget';
 
@@ -20,6 +21,7 @@ class Blog extends Component {
           </div>
           <div id="bar">
             <div id="barLeft">
+			  <Back />
             </div>
             <div id="barRight">
               <Search />

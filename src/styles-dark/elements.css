@@ -1,23 +1,24 @@
 input {
   display: inline-block;
   position: relative;
-  border: 1px solid #8cacbb;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: background ease 0.2s;
   padding: 4px;
 }
 
 input.search {
-  border: 1px solid #8cacbb;
-  background-color: #e7edf1;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.12);
   vertical-align: middle;
+  height: 22px;
   margin: 1px;
   padding: .2em .3em;
   display: inline;
 }
 
 .search, button {
-  border: 1px solid #8cacbb;
-  color: #000;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #bbb;
   vertical-align: middle;
   text-decoration: none;
   font-size: 100%;
@@ -29,10 +30,10 @@ div.search, button {
   padding-left: 1.1em;
   padding-right: 1.1em;
   cursor: pointer;
-  line-height: 23px;
+  line-height: 28px;
   box-sizing: content-box;
   font-size: 0.8em;
-  background-color: #e7edf1;
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 input:focus, button:focus {
@@ -41,7 +42,7 @@ input:focus, button:focus {
 
 input:focus {
   border: 1px solid gray;
-  color: #000;
+  color: #fff;
   /*line-height: 23px;
   padding-left: 0.2em;
   padding-right: 0.2em;*/
@@ -53,10 +54,10 @@ button, .search {
 }
 
 button:hover, .search:hover {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 a:link, a:active, a:visited, a:hover {
-  color: #436976;
+  color: #eee;
   text-decoration: none;
 }

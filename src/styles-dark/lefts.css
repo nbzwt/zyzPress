@@ -1,0 +1,84 @@
+#left h1, #left h2 {
+  font-weight: normal;
+}
+
+#left h1 {
+  font-size: 2em;
+}
+
+#left h2 {
+  font-size: 1.1em;
+}
+
+#left hr {
+  border: 1px solid gray;
+}
+
+#left ul {
+  list-style-type: none;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  margin-top: 0em;
+  padding-left:0;
+  text-align: left;
+}
+
+#left ul li {
+  line-height: 2.5em;
+  cursor: pointer;
+  transition: background ease 0.2s;
+  margin-right: .5em;
+  padding-left: 1em;
+}
+
+#left ul li:not(:first-child) {
+  border-top: 1px solid #444;
+}
+
+#left ul li:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#left h3.blockTitle {
+  margin: 0 0 0.5em 0;
+  text-align: left;
+  padding-left: 0em;
+  color: #eee;
+  background-color: rgba(255, 255, 255, 0.12);
+  line-height: 150%;
+}
+
+.eachwidget {
+  padding-bottom: 1em;
+}
+
+.searchWrapper {
+  display: flex;
+}
+
+.inputWrapper {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  flex: 1;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+@media screen and (max-width: 800px) {
+  .searchWrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+#mainTitle {
+  float: left;
+  text-align: left;
+}
+
+#subTitle {
+  color: #666;
+  float: right;
+  text-align: right;
+}
