@@ -68,7 +68,7 @@
 @media screen and (max-width: 800px) {
   .searchWrapper {
     width: 80%;
-    margin: 0 auto;
+    margin: 0;
   }
 }
 
